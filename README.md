@@ -20,12 +20,11 @@ A implementação manual de estruturas de dados é fundamental para a compreens�
 - **Prevenção de Loops em Estruturas Circulares:** Para listar os anúncios, utiliza-se o tamanho da lista ou uma marcação de parada baseada no nó inicial, garantindo que o ciclo seja percorrido exatamente uma vez.
 - **Remoção do Atual:** Na lista circular e na playlist, se o nó removido for o "atual" (ponteiro de exibição/reprodução), o ponteiro é movido para o próximo nó válido antes da exclusão.
 
-## 4. Evidências de Execução
+## 4. Evidências de Execução (Pasta prints com evidências)
 As classes principais (`SistemaCafeteria`, `PlayerMusica`, `PainelDigital`) fornecem menus interativos no terminal que realizam:
 - Inserção e remoção correta em pilhas e filas (Parte 1).
 - Navegação entre músicas e ordenação por título/artista (Parte 2).
 - Rotação infinita e remoção segura em ciclo circular (Parte 3).
-(Pasta prints com evidências)
 
 ## 5. Conclusão
 As principais dificuldades envolveram a manutenção dos ponteiros em listas circulares durante a remoção, especialmente quando a lista possui apenas um ou dois elementos. A resolução passou pelo desenho manual dos estados dos nós e testes exaustivos de casos de borda. O aprendizado obtido reforça a lógica de programação e a habilidade de criar soluções customizadas sem dependências externas.
