@@ -21,10 +21,11 @@ A implementação manual de estruturas de dados é fundamental para a compreens�
 - **Remoção do Atual:** Na lista circular e na playlist, se o nó removido for o "atual" (ponteiro de exibição/reprodução), o ponteiro é movido para o próximo nó válido antes da exclusão.
 
 ## 4. Evidências de Execução
-As classes principais (`SistemaCafeteria`, `PlayerMusica`, `PainelDigital`) fornecem menus interativos no terminal que comprovam:
+As classes principais (`SistemaCafeteria`, `PlayerMusica`, `PainelDigital`) fornecem menus interativos no terminal que realizam:
 - Inserção e remoção correta em pilhas e filas (Parte 1).
 - Navegação entre músicas e ordenação por título/artista (Parte 2).
 - Rotação infinita e remoção segura em ciclo circular (Parte 3).
+(Pasta prints com evidências)
 
 ## 5. Conclusão
 As principais dificuldades envolveram a manutenção dos ponteiros em listas circulares durante a remoção, especialmente quando a lista possui apenas um ou dois elementos. A resolução passou pelo desenho manual dos estados dos nós e testes exaustivos de casos de borda. O aprendizado obtido reforça a lógica de programação e a habilidade de criar soluções customizadas sem dependências externas.
